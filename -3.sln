@@ -1,25 +1,1469 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32616.157
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "-3", "-3.csproj", "{A60742B6-990E-4D63-93A7-56032CC60C97}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A60742B6-990E-4D63-93A7-56032CC60C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A60742B6-990E-4D63-93A7-56032CC60C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A60742B6-990E-4D63-93A7-56032CC60C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A60742B6-990E-4D63-93A7-56032CC60C97}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C0770770-7CCE-4DA9-A885-8AAE8B644EFD}
-	EndGlobalSection
-EndGlobal
+// See https://aka.ms/new-console-template for more information
+int gun,yil,hafta,sira;
+
+
+yil=Convert.ToInt32(Console.ReadLine());
+sira=Convert.ToInt32(Console.ReadLine());
+hafta=Convert.ToInt32(Console.ReadLine());
+gun=Convert.ToInt32(Console.ReadLine());
+
+if(yil>-10000 && yil<2022)
+{
+    for (yil=-26077;;yil+=28)
+        switch (hafta)
+        {
+            case 1:
+                switch (gun)
+                {
+                    case 1:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 1. haftasinin 1. gunu pazartesidir.");
+                        break;
+                    case 2:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 1. haftasinin 2. gunu salidir.");
+                        break;
+                    case 3:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 1. haftasinin 3. gunu carsambadir.");
+                        break;
+                    case 4:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 1. haftasinin 4. gunu persembedir.");
+                        break;
+                    case 5:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 1. haftasinin 5. gunu cumadir.");
+                        break;
+                    case 6:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 1. haftasinin 6. gunu cumartesidir.");
+                        break;
+                    case 7:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 1. haftasinin 7. gunu pazardir.");
+                        break;
+                }
+                break;
+            case 2:
+                switch (gun)
+                {
+                    case 1:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 2. haftasinin 1. gunu pazartesidir.");
+                        break;
+                    case 2:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 2. haftasinin 2. gunu salidir.");
+                        break;
+                    case 3:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 2. haftasinin 3. gunu carsambadir.");
+                        break;
+                    case 4:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 2. haftasinin 4. gunu persembedir.");
+                        break;
+                    case 5:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 2. haftasinin 5. gunu cumadir.");
+                        break;
+                    case 6:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 2. haftasinin 6. gunu cumartesidir.");
+                        break;
+                    case 7:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 2. haftasinin 7. gunu pazardir.");
+                        break;
+                }
+                break;
+            case 3:
+                switch (gun)
+                {
+                    case 1:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 3. haftasinin 1. gunu pazartesidir.");
+                        break;
+                    case 2:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 3. haftasinin 2. gunu salidir.");
+                        break;
+                    case 3:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 3. haftasinin 3. gunu carsambadir.");
+                        break;
+                    case 4:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 3. haftasinin 4. gunu persembedir.");
+                        break;
+                    case 5:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 3. haftasinin 5. gunu cumadir.");
+                        break;
+                    case 6:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 3. haftasinin 6. gunu cumartesidir.");
+                        break;
+                    case 7:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 3. haftasinin 7. gunu pazardir.");
+                        break;
+                }
+                break;
+            case 4:
+                switch (gun)
+                {
+                    case 1:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 4. haftasinin 1. gunu pazartesidir.");
+                        break;
+                    case 2:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 4. haftasinin 2. gunu salidir.");
+                        break;
+                    case 3:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 4. haftasinin 3. gunu carsambadir.");
+                        break;
+                    case 4:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 4. haftasinin 4. gunu persembedir.");
+                        break;
+                    case 5:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 4. haftasinin 5. gunu cumadir.");
+                        break;
+                    case 6:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 4. haftasinin 6. gunu cumartesidir.");
+                        break;
+                    case 7:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 4. haftasinin 7. gunu pazardir.");
+                        break;
+                }
+                break;
+            case 5:
+                switch (gun)
+                {
+                    case 1:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 5. haftasinin 1. gunu pazartesidir.");
+                        break;
+                    case 2:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 5. haftasinin 2. gunu salidir.");
+                        break;
+                    case 3:
+                        Console.WriteLine(yil + " yilinin " + "ocak ayinin 5. haftasinin 3. gunu carsambadir.");
+                        break;
+                }
+                break; 
+            switch (hafta)
+            {
+                case 1:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin" + " subat ayinin 1. haftasinin 1. gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin" + " subat ayinin 1. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 1. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 1. haftasinin 4. gunu pazardir");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 1. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 1. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 1. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 2. haftasinin 1. gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 2. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 2. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 2. haftasinin 4. gunu pazardir");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 2. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 2. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 2. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 1. gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 4. gunu pazardir");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 1. gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 4. gunu pazardir");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 3. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "subat ayinin 5. haftasinin 1. gunu persembedir.");
+                            break;
+                    }
+                    break;
+            }
+            break;
+            switch (hafta)
+            {
+                case 1:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 1. haftasinin 1. gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 1. haftasinin 2. gunu camartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 1. haftasinin 3. gunu pazardir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 1. haftasinin 4. gunu pazartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 1. haftasinin 5. gunu salidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 1. haftasinin 6. gunu carsambadir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 1. haftasinin 7. gunu persembedir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 2.haftasinin 1.gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 2. haftasinin 2. gunu camartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 2. haftasinin 3. gunu pazardir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 2. haftasinin 4. gunu pazartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 2. haftasinin 5. gunu salidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 2. haftasinin 6. gunu carsambadir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 2. haftasinin 7. gunu persembedir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 3.haftasinin 1.gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 3. haftasinin 2. gunu camartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 3. haftasinin 3. gunu pazardir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 3. haftasinin 4. gunu pazartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 3. haftasinin 5. gunu salidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 3. haftasinin 6. gunu carsambadir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 3. haftasinin 7. gunu persembedir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 4.haftasinin 1.gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 4. haftasinin 2. gunu camartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 4. haftasinin 3. gunu pazardir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 4. haftasinin 4. gunu pazartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 4. haftasinin 5. gunu salidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 4. haftasinin 6. gunu carsambadir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 4. haftasinin 7. gunu persembedir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 5. haftasinin 1. gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 5. haftasinin 2. gunu cumartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mart ayinin 5. haftasinin 3. gunu pazardir.");
+                            break;
+                        }
+                    break;
+            }
+            break;
+            switch (hafta)
+            {
+                case 1:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 1.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 1. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 1. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 1. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                                Console.WriteLine(yil + " yilinin " + "nisan ayinin 1. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 1. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 1. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 2.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 2. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 2. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 2. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 2. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 2. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 2. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 3.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 3. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 3. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 3. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 3. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 3. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 3. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 4.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 4. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 4. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 4. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 4. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 4. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 4. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 5. haftasinin 1. gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "nisan ayinin 5. haftasinin 2. gunu salidir.");
+                            break;
+                    }
+                    break;
+            }
+            break;
+            switch (hafta)
+            {
+                case 1:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1.haftasinin 1.gunu carsambadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 2. gunu persembedir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 3. gunu cumadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 4. gunu cumartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 5. gunu pazardir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 6. gunu pazartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 7. gunu salidir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 1. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 5. haftasinin 1. gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 5. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "mayis ayinin 5. haftasinin 3. gunu carsambadir.");
+                            break;
+
+                    }
+                    break;
+            }
+            break;
+        case 6:
+            switch (hafta)
+            {
+                case 1:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 1.haftasinin 1.gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 1. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 1. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 1. haftasinin 4. gunu pazardir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 1. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 1. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 1. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 2.haftasinin 1.gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 2. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 2. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 2. haftasinin 4. gunu pazardir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 2. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 2. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 2. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 3.haftasinin 1.gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 3. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 3. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 3. haftasinin 4. gunu pazardir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 3. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 3. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 3. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 4.haftasinin 1.gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 4. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 4. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 4. haftasinin 4. gunu pazardir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 4. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 4. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 4. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 5. haftasinin 1. gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "haziran ayinin 5. haftasinin 2. gunu cumadir.");
+                            break;
+                    }
+                    break;                  
+            }
+            break;
+        case 7: 
+            switch(hafta)
+            {
+                case 1:
+                    switch(gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 1.haftasinin 1.gunu cumartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 1. haftasinin 2. gunu pazardir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 1. haftasinin 3. gunu pazartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 1. haftasinin 4. gunu salidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 1. haftasinin 5. gunu carsambadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 1. haftasinin 6. gunu persembedir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 1. haftasinin 7. gunu cumadir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 2.haftasinin 1.gunu cumartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 2. haftasinin 2. gunu pazardir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 2. haftasinin 3. gunu pazartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 2. haftasinin 4. gunu salidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 2. haftasinin 5. gunu carsambadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 2. haftasinin 6. gunu persembedir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 2. haftasinin 7. gunu cumadir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 3.haftasinin 1.gunu cumartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 3. haftasinin 2. gunu pazardir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 3. haftasinin 3. gunu pazartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 3. haftasinin 4. gunu salidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 3. haftasinin 5. gunu carsambadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 3. haftasinin 6. gunu persembedir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 3. haftasinin 7. gunu cumadir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 4.haftasinin 1.gunu cumartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 4. haftasinin 2. gunu pazardir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 4. haftasinin 3. gunu pazartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 4. haftasinin 4. gunu salidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 4. haftasinin 5. gunu carsambadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 4. haftasinin 6. gunu persembedir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 4. haftasinin 7. gunu cumadir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 5. haftasinin 1. gunu cumartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 5. haftasinin 2. gunu pazardir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "temmuz ayinin 5. haftasinin 3. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+            }
+            break;
+        case 8:
+            switch (hafta)
+            {
+                case 1:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 1.haftasinin 1.gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 1. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 1. haftasinin 3. gunu persembedir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 1. haftasinin 4. gunu cumadir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 1. haftasinin 5. gunu cumartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 1. haftasinin 6. gunu pazardir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 1. haftasinin 7. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 2.haftasinin 1.gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 2. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 2. haftasinin 3. gunu persembedir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 2. haftasinin 4. gunu cumadir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 2. haftasinin 5. gunu cumartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 2. haftasinin 6. gunu pazardir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 2. haftasinin 7. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 3.haftasinin 1.gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 3. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 3. haftasinin 3. gunu persembedir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 3. haftasinin 4. gunu cumadir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 3. haftasinin 5. gunu cumartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 3. haftasinin 6. gunu pazardir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 3. haftasinin 7. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 4.haftasinin 1.gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 4. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 4. haftasinin 3. gunu persembedir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 4. haftasinin 4. gunu cumadir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 4. haftasinin 5. gunu cumartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 4. haftasinin 6. gunu pazardir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 4. haftasinin 7. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 5. haftasinin 1. gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 5. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "agustos ayinin 5. haftasinin 3. gunu persembedir.");
+                            break;
+                    }
+                    break;
+            }
+            break;
+           case 9:
+            switch (hafta)
+            {
+                case 1:
+                    switch(gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 1.haftasinin 1.gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 1. haftasinin 2. gunu cumartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 1. haftasinin 3. gunu pazardir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 1. haftasinin 4. gunu pazartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 1. haftasinin 5. gunu salidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 1. haftasinin 6. gunu carsambadir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 1. haftasinin 7. gunu persembedir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 2.haftasinin 1.gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 2. haftasinin 2. gunu cumartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 2. haftasinin 3. gunu pazardir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 2. haftasinin 4. gunu pazartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 2. haftasinin 5. gunu salidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 2. haftasinin 6. gunu carsambadir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 2. haftasinin 7. gunu persembedir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 3.haftasinin 1.gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 3. haftasinin 2. gunu cumartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 3. haftasinin 3. gunu pazardir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 3. haftasinin 4. gunu pazartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 3. haftasinin 5. gunu salidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 3. haftasinin 6. gunu carsambadir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 3. haftasinin 7. gunu persembedir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 4.haftasinin 1.gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 4. haftasinin 2. gunu cumartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 4. haftasinin 3. gunu pazardir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 4. haftasinin 4. gunu pazartesidir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 4. haftasinin 5. gunu salidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 4. haftasinin 6. gunu carsambadir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 4. haftasinin 7. gunu persembedir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 5.haftasinin 1.gunu cumadir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 5. haftasinin 2. gunu cumartesidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "eylul ayinin 5. haftasinin 3. günü pazardir.");
+                            break;
+                    }
+                    break;
+            }
+            break;
+        case 10:
+            switch(hafta)
+            {
+                case 1:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 1.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 1. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 1. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 1. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 1. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 1. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 1. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 2.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 2. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 2. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 2. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 2. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 2. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 2. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 3.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 3. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 3. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 3. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 3. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 3. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 3. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 4.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 4. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 4. haftasinin 3. gunu carsambadir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 4. haftasinin 4. gunu persembedir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 4. haftasinin 5. gunu cumadir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 4. haftasinin 6. gunu cumartesidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 4. haftasinin 7. gunu pazardir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 5.haftasinin 1.gunu pazartesidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 5. haftasinin 2. gunu salidir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "ekim ayinin 4. haftasinin 3. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+            }
+            break;
+        case 11:
+            switch(hafta)
+            {
+                case 1:
+                    switch(gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 1. haftasinin 1. gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 1. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 1. haftasinin 3. gunu persembedir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 1. haftasinin 4. gunu cumadir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 1. haftasinin 5. gunu cumartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 1. haftasinin 6. gunu pazardir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 1. haftasinin 7. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " +"kasim ayinin 2. haftasinin 1. gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 2. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 2. haftasinin 3. gunu persembedir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 2. haftasinin 4. gunu cumadir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 2. haftasinin 5. gunu cumartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 2. haftasinin 6. gunu pazardir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 2. haftasinin 7. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 3. haftasinin 1. gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 3. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 3. haftasinin 3. gunu persembedir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 3. haftasinin 4. gunu cumadir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 3. haftasinin 5. gunu cumartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 3. haftasinin 6. gunu pazardir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 3. haftasinin 7. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 4. haftasinin 1. gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 4. haftasinin 2. gunu carsambadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 4. haftasinin 3. gunu persembedir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 4. haftasinin 4. gunu cumadir.");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 4. haftasinin 5. gunu cumartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 4. haftasinin 6. gunu pazardir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 4. haftasinin 7. gunu pazartesidir.");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 5. haftasinin 1. gunu salidir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "kasim ayinin 5. haftasinin 2. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+            }
+            break;
+        case 12:
+            switch(hafta)
+            {
+                case 1:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin" + " aralik ayinin 1. haftasinin 1. gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin" + " aralik ayinin 1. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 3. gunu cumartesidir.");
+                            break;
+                        case 4:
+                            Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 4. gunu pazardir");
+                            break;
+                        case 5:
+                            Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 5. gunu pazartesidir.");
+                            break;
+                        case 6:
+                            Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 6. gunu salidir.");
+                            break;
+                        case 7:
+                            Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 7. gunu carsambadir.");
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (gun)
+                    {
+                            case 1:
+                                Console.WriteLine(yil + " yilinin" + " aralik ayinin 1. haftasinin 1. gunu persembedir.");
+                                break;
+                            case 2:
+                                Console.WriteLine(yil + " yilinin" + " aralik ayinin 1. haftasinin 2. gunu cumadir.");
+                                break;
+                            case 3:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 3. gunu cumartesidir.");
+                                break;
+                            case 4:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 4. gunu pazardir");
+                                break;
+                            case 5:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 5. gunu pazartesidir.");
+                                break;
+                            case 6:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 6. gunu salidir.");
+                                break;
+                            case 7:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 7. gunu carsambadir.");
+                                break;
+                        }
+                    break;
+                case 3:
+                    switch (gun)
+                    {
+                            case 1:
+                                Console.WriteLine(yil + " yilinin" + " aralik ayinin 1. haftasinin 1. gunu persembedir.");
+                                break;
+                            case 2:
+                                Console.WriteLine(yil + " yilinin" + " aralik ayinin 1. haftasinin 2. gunu cumadir.");
+                                break;
+                            case 3:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 3. gunu cumartesidir.");
+                                break;
+                            case 4:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 4. gunu pazardir");
+                                break;
+                            case 5:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 5. gunu pazartesidir.");
+                                break;
+                            case 6:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 6. gunu salidir.");
+                                break;
+                            case 7:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 7. gunu carsambadir.");
+                                break;
+                        }
+                    break;
+                case 4:
+                    switch (gun)
+                    {
+                            case 1:
+                                Console.WriteLine(yil + " yilinin" + " aralik ayinin 1. haftasinin 1. gunu persembedir.");
+                                break;
+                            case 2:
+                                Console.WriteLine(yil + " yilinin" + " aralik ayinin 1. haftasinin 2. gunu cumadir.");
+                                break;
+                            case 3:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 3. gunu cumartesidir.");
+                                break;
+                            case 4:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 4. gunu pazardir");
+                                break;
+                            case 5:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 5. gunu pazartesidir.");
+                                break;
+                            case 6:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 6. gunu salidir.");
+                                break;
+                            case 7:
+                                Console.WriteLine(yil + " yilinin " + "aralik ayinin 1. haftasinin 7. gunu carsambadir.");
+                                break;
+                        }
+                    break;
+                case 5:
+                    switch (gun)
+                    {
+                        case 1:
+                            Console.WriteLine(yil + " yilinin " + "aralik ayinin 5. haftasinin 1. gunu persembedir.");
+                            break;
+                        case 2:
+                            Console.WriteLine(yil + " yilinin " + "aralik ayinin 5. haftasinin 2. gunu cumadir.");
+                            break;
+                        case 3:
+                            Console.WriteLine(yil + " yilinin " + "aralik ayinin 5. haftasinin 3. gunu cumartesidir.");
+                            break;
+                    }
+                    break;
+            }
+            break;
+        }
+    }
